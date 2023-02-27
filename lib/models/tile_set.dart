@@ -8,7 +8,9 @@ enum TileVariants {
 
 enum TileFlips {
   none,
+  // alternate flip across the horizontal access
   horizontal,
+  // alternate flip across the vertical access
   vertical
 }
 

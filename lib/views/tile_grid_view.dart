@@ -17,11 +17,7 @@ class _TileGridState extends State<TileGrid> {
     return ListView(
       children: [
         Container (
-          // width: 1000,
           height: 50,
-          // decoration: BoxDecoration(
-          //   shape: BoxShape.circle
-          // ),
           child: Row(
               children: [
                 DropdownButton<String>(
@@ -81,41 +77,9 @@ class _TileGridState extends State<TileGrid> {
               );
             },
           )
-          // child: FutureBuilder<TileSet>(
-          //   future: tileSet,
-          //   builder: (BuildContext context, AsyncSnapshot<TileSet> snapshot) {
-          //     if (snapshot.hasData) {
-          //       final tileSet = snapshot.data as TileSet;
-          //       return buildLayout(tileSet);
-          //     } else {
-          //       return SizedBox(
-          //         width: MediaQuery.of(context).size.width,
-          //         height: 150,
-          //         child: CircularProgressIndicator(),
-          //       );
-          //     }
-          //  }
-          //  )
         )
       ]
     );
   }
 
-  // Widget buildLayout(TileSet tileSet) {
-  //
-  //   return ListView(
-  //       children: [
-  //         Container(
-  //         height: 150,
-  //           child: ListView(scrollDirection: Axis.horizontal, children: [] /* offsetBlendedRowBuilder(true)*/),
-  //   )
-  //         // ListView(scrollDirection: Axis.horizontal, children: offsetBlendedRowBuilder(false)),
-  //         // ListView(scrollDirection: Axis.horizontal, children: offsetBlendedRowBuilder(true)),
-  //         // ListView(scrollDirection: Axis.horizontal, children: offsetBlendedRowBuilder(false)),
-  //         // Row(children: blendedRowBuilder(false)),
-  //         // Row(children: blendedRowBuilder(true)),
-  //         // Row(children: blendedRowBuilder(false)),
-  //       ]
-  //   );
-  // }
 }
