@@ -1,0 +1,32 @@
+{
+  "tile_types": [
+    {
+      "id": "cosmic_square",
+      "variants": 3,
+      "asset_path": "assets/tiles/123887 cosmic square natural 0$variant.jpg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "id": "pottery_square",
+      "variants": 3,
+      "asset_path": "assets/tiles/123884 Pottery square natural 0$variant.jpg",
+      "width": 150,
+      "height": 150
+    },
+    {
+      "id": "cosmic_rect",
+      "variants": 3,
+      "asset_path": "assets/tiles/123894 Pottery cosmic grey 0$variant.tif",
+      "width": 150,
+      "height": 50
+    },
+    {
+      "id": "pottery_rect",
+      "variants": 3,
+      "asset_path": "assets/tiles/123890 Pottery natural 0$variant.jpg",
+      "width": 150,
+      "height": 50
+    }
+  ]
+}
